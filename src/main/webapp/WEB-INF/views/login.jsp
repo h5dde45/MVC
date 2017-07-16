@@ -18,8 +18,10 @@
 			<form:label path="password">Password:</form:label>
 			<form:password path="password"/>
 		</fieldset>
-		<footer> <label><input type="checkbox" tabindex="3">Keep me logged in</label>
-			<input type="submit" class="btnLogin" value="Login" tabindex="4"> 
+		<footer>
+            <form:label path="admin">admin</form:label>
+            <form:checkbox path="admin"/>
+			<input type="submit" class="btnLogin" value="Login">
 		</footer>
 	</form:form>
 
