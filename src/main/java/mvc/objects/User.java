@@ -12,11 +12,17 @@ import javax.xml.bind.annotation.XmlRootElement;
 @ToString
 @XmlRootElement
 public class User {
+    public User() {
+    }
 
-    @Size(min = 6, message = "Имя должно быть 6 знаков")
+    public User(String name) {
+        this.name = name;
+    }
+
+    @Size(min = 6, message = "{name.size.error}")
     private String name;
 
-    @Size(min = 6,max = 10,message = "Пароль должен быть от 5 до 10 знаков")
+    @Size(min = 6,max = 10,message = "{password.size.error}")
     private String password;
 
     private Boolean admin;

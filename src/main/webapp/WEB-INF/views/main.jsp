@@ -7,6 +7,6 @@
 <p>Hello ${user.name}!</p>
 <p>Your password is ${user.password}!</p>
 <p>Admin = ${user.admin}!</p>
-<%--<p>Time = ${time} sec...</p>--%>
+<p>Locale = ${locale}</p>
 </body>
 </html>
