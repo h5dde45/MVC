@@ -14,15 +14,15 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/*"/>
-            <bean class="mvc.interceptors.CheckUserInterCeptor"/>
-        </mvc:interceptor>
+    <!--<mvc:interceptors>-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/*"/>-->
+            <!--<bean class="mvc.interceptors.CheckUserInterCeptor"/>-->
+        <!--</mvc:interceptor>-->
         <!--<mvc:interceptor>-->
             <!--<mvc:mapping path="/*"/>-->
             <!--<bean class="mvc.interceptors.TimeInterceptor"/>-->
         <!--</mvc:interceptor>-->
-    </mvc:interceptors>
+    <!--</mvc:interceptors>-->
 
 </beans>
